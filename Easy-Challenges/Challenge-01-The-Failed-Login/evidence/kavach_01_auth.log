@@ -1,0 +1,1000 @@
+May 14 09:00:00 ubuntu-server systemd[1]: Started OpenBSD Secure Shell server.
+May 14 09:00:01 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:00:04 ubuntu-server passwd[2103]: password changed for reporting
+May 14 09:00:12 ubuntu-server sshd[1021]: Server listening on 0.0.0.0 port 22.
+May 14 09:00:20 ubuntu-server sshd[1021]: Server listening on :: port 22.
+May 14 09:00:30 ubuntu-server sshd[1314]: Accepted publickey for reporting from 192.0.2.25 port 30308 ssh2
+May 14 09:00:40 ubuntu-server CRON[1751]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:00:46 ubuntu-server systemd-logind[3785]: Removed session 89.
+May 14 09:00:47 ubuntu-server systemd-logind[3929]: New session 81 of user analyst.
+May 14 09:00:48 ubuntu-server sshd[3720]: Accepted publickey for reporting from 198.51.100.23 port 31639 ssh2
+May 14 09:00:52 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/df
+May 14 09:00:56 ubuntu-server systemd-logind[1803]: Removed session 63.
+May 14 09:00:57 ubuntu-server sshd[3734]: Failed password for invalid user monitor from 198.51.100.23 port 43767 ssh2
+May 14 09:00:59 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:01:04 ubuntu-server sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:01:05 ubuntu-server sshd[1040]: Failed password for test from 203.0.113.42 port 45120 ssh2
+May 14 09:01:07 ubuntu-server sshd[1308]: Accepted publickey for monitor from 192.0.2.55 port 40390 ssh2
+May 14 09:01:07 ubuntu-server CRON[3865]: pam_unix(cron:session): session closed for user root
+May 14 09:01:09 ubuntu-server systemd-logind[3756]: Removed session 30.
+May 14 09:01:12 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:01:14 ubuntu-server sshd[1393]: Accepted publickey for reporting from 198.51.100.23 port 52948 ssh2
+May 14 09:01:15 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:01:19 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:01:21 ubuntu-server sshd[1330]: Accepted publickey for reporting from 198.51.100.23 port 30767 ssh2
+May 14 09:01:23 ubuntu-server sshd[3696]: Accepted publickey for analyst from 192.0.2.25 port 56235 ssh2
+May 14 09:01:28 ubuntu-server CRON[1782]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:01:34 ubuntu-server CRON[3752]: pam_unix(cron:session): session closed for user root
+May 14 09:01:34 ubuntu-server systemd-logind[3922]: New session 21 of user reporting.
+May 14 09:01:41 ubuntu-server systemd-logind[3773]: Removed session 66.
+May 14 09:01:41 ubuntu-server CRON[3937]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:01:42 ubuntu-server pam_unix(login:session): session opened for user backup(uid=1003) by LOGIN(uid=0)
+May 14 09:01:44 ubuntu-server sshd[1041]: Failed password for oracle from 203.0.113.42 port 45127 ssh2
+May 14 09:01:49 ubuntu-server sshd[3917]: Failed password for invalid user reporting from 192.0.2.40 port 49014 ssh2
+May 14 09:01:57 ubuntu-server sshd[3829]: Accepted publickey for webadmin from 192.0.2.25 port 53105 ssh2
+May 14 09:02:01 ubuntu-server CRON[3845]: pam_unix(cron:session): session closed for user root
+May 14 09:02:02 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:02:04 ubuntu-server sudo: monitor : TTY=pts/4 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:02:10 ubuntu-server sshd[1878]: pam_unix(sshd:session): session opened for user backup(uid=1003) by (uid=0)
+May 14 09:02:10 ubuntu-server systemd-logind[3804]: New session 91 of user backup.
+May 14 09:02:12 ubuntu-server sshd[3878]: Accepted publickey for monitor from 198.51.100.23 port 59428 ssh2
+May 14 09:02:13 ubuntu-server CRON[3775]: pam_unix(cron:session): session closed for user root
+May 14 09:02:18 ubuntu-server systemd-logind[3919]: New session 71 of user monitor.
+May 14 09:02:23 ubuntu-server sshd[1042]: Failed password for backup from 203.0.113.42 port 45134 ssh2
+May 14 09:02:27 ubuntu-server systemd-logind[3838]: Removed session 81.
+May 14 09:02:28 ubuntu-server CRON[3830]: pam_unix(cron:session): session closed for user root
+May 14 09:02:31 ubuntu-server CRON[3812]: pam_unix(cron:session): session closed for user root
+May 14 09:02:37 ubuntu-server CRON[1733]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:02:41 ubuntu-server systemd-logind[1857]: Removed session 21.
+May 14 09:02:41 ubuntu-server systemd-logind[3707]: Removed session 92.
+May 14 09:02:46 ubuntu-server sshd[1807]: pam_unix(sshd:session): session closed for user monitor
+May 14 09:02:47 ubuntu-server CRON[3977]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:02:52 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:02:59 ubuntu-server sshd[1778]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+May 14 09:03:02 ubuntu-server sshd[1043]: Failed password for test from 203.0.113.42 port 45141 ssh2
+May 14 09:03:03 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:03:04 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:03:11 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:03:14 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:03:20 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:03:22 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by webadmin(uid=1004)
+May 14 09:03:22 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:03:25 ubuntu-server sshd[1363]: Accepted publickey for analyst from 192.0.2.55 port 39168 ssh2
+May 14 09:03:36 ubuntu-server systemd-logind[3881]: New session 56 of user webadmin.
+May 14 09:03:39 ubuntu-server systemd-logind[1821]: Removed session 90.
+May 14 09:03:41 ubuntu-server sshd[1044]: Failed password for ubuntu from 203.0.113.42 port 45148 ssh2
+May 14 09:03:42 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:03:43 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:03:44 ubuntu-server pam_unix(login:session): session opened for user webadmin(uid=1004) by LOGIN(uid=0)
+May 14 09:03:44 ubuntu-server pam_unix(login:session): session opened for user analyst(uid=1005) by LOGIN(uid=0)
+May 14 09:04:04 ubuntu-server CRON[3958]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:04:11 ubuntu-server sshd[1409]: Failed password for invalid user guest from 192.0.2.55 port 32593 ssh2
+May 14 09:04:12 ubuntu-server CRON[1758]: pam_unix(cron:session): session closed for user root
+May 14 09:04:13 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:04:15 ubuntu-server sudo: analyst : TTY=pts/3 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:04:20 ubuntu-server sshd[1045]: Failed password for test from 203.0.113.42 port 45155 ssh2
+May 14 09:04:23 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:04:27 ubuntu-server CRON[3673]: pam_unix(cron:session): session closed for user root
+May 14 09:04:27 ubuntu-server CRON[3832]: pam_unix(cron:session): session closed for user root
+May 14 09:04:34 ubuntu-server sshd[1302]: Accepted publickey for analyst from 198.51.100.23 port 61988 ssh2
+May 14 09:04:36 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2266:123456
+May 14 09:04:40 ubuntu-server sshd[1316]: Failed password for analyst from 198.51.100.17 port 41439 ssh2
+May 14 09:04:40 ubuntu-server sshd[1404]: Connection closed by authenticating user ops 198.51.100.17 port 47817 [preauth]
+May 14 09:04:44 ubuntu-server CRON[3895]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:04:45 ubuntu-server systemd-logind[3863]: New session 16 of user reporting.
+May 14 09:04:51 ubuntu-server sshd[1335]: Accepted publickey for monitor from 192.0.2.55 port 54818 ssh2
+May 14 09:04:54 ubuntu-server CRON[3841]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:04:55 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:04:57 ubuntu-server systemd-logind[1912]: Removed session 53.
+May 14 09:04:59 ubuntu-server sshd[1046]: Failed password for oracle from 203.0.113.42 port 45162 ssh2
+May 14 09:05:04 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:05:08 ubuntu-server sudo: monitor : TTY=pts/2 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:05:08 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2249:123456
+May 14 09:05:14 ubuntu-server systemd-logind[3901]: Removed session 16.
+May 14 09:05:21 ubuntu-server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:05:28 ubuntu-server CRON[1818]: pam_unix(cron:session): session closed for user root
+May 14 09:05:30 ubuntu-server sshd[3874]: Accepted publickey for analyst from 192.0.2.40 port 43722 ssh2
+May 14 09:05:33 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:05:36 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/nginx -t
+May 14 09:05:37 ubuntu-server sshd[1852]: pam_unix(sshd:session): session closed for user webadmin
+May 14 09:05:37 ubuntu-server sshd[3803]: Accepted publickey for monitor from 192.0.2.25 port 32722 ssh2
+May 14 09:05:38 ubuntu-server sshd[1047]: Failed password for ubuntu from 203.0.113.42 port 45169 ssh2
+May 14 09:05:38 ubuntu-server systemd-logind[3982]: New session 52 of user analyst.
+May 14 09:05:48 ubuntu-server CRON[3753]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:06:01 ubuntu-server sshd[1344]: Failed password for invalid user guest from 192.0.2.25 port 45133 ssh2
+May 14 09:06:02 ubuntu-server sshd[1378]: Accepted publickey for backup from 198.51.100.17 port 57166 ssh2
+May 14 09:06:03 ubuntu-server sshd[1327]: Connection closed by authenticating user analyst 198.51.100.23 port 37752 [preauth]
+May 14 09:06:04 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by monitor(uid=1006)
+May 14 09:06:08 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:06:13 ubuntu-server sshd[1355]: Accepted publickey for ops from 192.0.2.25 port 30969 ssh2
+May 14 09:06:17 ubuntu-server sshd[1048]: Failed password for deploy from 203.0.113.42 port 45176 ssh2
+May 14 09:06:17 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:06:20 ubuntu-server sshd[3991]: Failed password for invalid user reporting from 198.51.100.23 port 53264 ssh2
+May 14 09:06:21 ubuntu-server CRON[1819]: pam_unix(cron:session): session closed for user root
+May 14 09:06:21 ubuntu-server CRON[3790]: pam_unix(cron:session): session closed for user root
+May 14 09:06:24 ubuntu-server sshd[1397]: Accepted publickey for webadmin from 198.51.100.17 port 48881 ssh2
+May 14 09:06:27 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:06:28 ubuntu-server sshd[1384]: Accepted publickey for analyst from 198.51.100.23 port 36243 ssh2
+May 14 09:06:29 ubuntu-server systemd-logind[1887]: Removed session 56.
+May 14 09:06:32 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:06:34 ubuntu-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:06:37 ubuntu-server sshd[1826]: pam_unix(sshd:session): session closed for user analyst
+May 14 09:06:38 ubuntu-server sshd[1348]: Accepted publickey for backup from 198.51.100.23 port 55112 ssh2
+May 14 09:06:54 ubuntu-server sshd[1325]: Accepted publickey for webadmin from 198.51.100.17 port 44682 ssh2
+May 14 09:06:54 ubuntu-server CRON[3667]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:06:56 ubuntu-server sshd[1049]: Failed password for ubuntu from 203.0.113.42 port 45183 ssh2
+May 14 09:06:56 ubuntu-server systemd-logind[1760]: New session 44 of user deploy.
+May 14 09:07:02 ubuntu-server CRON[1928]: pam_unix(cron:session): session closed for user root
+May 14 09:07:03 ubuntu-server CRON[3942]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:07:08 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:07:10 ubuntu-server sshd[3757]: Failed password for invalid user reporting from 192.0.2.55 port 32075 ssh2
+May 14 09:07:14 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:07:31 ubuntu-server systemd-logind[3880]: New session 56 of user monitor.
+May 14 09:07:33 ubuntu-server systemd-logind[1720]: Removed session 49.
+May 14 09:07:35 ubuntu-server sshd[1050]: Failed password for deploy from 203.0.113.42 port 45190 ssh2
+May 14 09:07:36 ubuntu-server CRON[3710]: pam_unix(cron:session): session closed for user root
+May 14 09:07:39 ubuntu-server sshd[1701]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:07:40 ubuntu-server sshd[1377]: Accepted publickey for backup from 192.0.2.55 port 48462 ssh2
+May 14 09:07:40 ubuntu-server sshd[1380]: Accepted publickey for analyst from 198.51.100.17 port 33642 ssh2
+May 14 09:07:45 ubuntu-server sudo: webadmin : TTY=pts/0 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:08:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by analyst(uid=1005)
+May 14 09:08:05 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:08:12 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:08:14 ubuntu-server sshd[1051]: Failed password for root from 203.0.113.42 port 45197 ssh2
+May 14 09:08:18 ubuntu-server CRON[3959]: pam_unix(cron:session): session closed for user root
+May 14 09:08:27 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:08:30 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:08:32 ubuntu-server systemd-logind[3902]: New session 75 of user analyst.
+May 14 09:08:42 ubuntu-server CRON[3975]: pam_unix(cron:session): session closed for user root
+May 14 09:08:43 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:08:46 ubuntu-server sshd[3781]: Failed password for invalid user ops from 192.0.2.55 port 42176 ssh2
+May 14 09:08:48 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:08:48 ubuntu-server CRON[1771]: pam_unix(cron:session): session closed for user root
+May 14 09:08:52 ubuntu-server systemd-logind[1711]: New session 82 of user backup.
+May 14 09:08:53 ubuntu-server sshd[1052]: Failed password for deploy from 203.0.113.42 port 45204 ssh2
+May 14 09:08:54 ubuntu-server sshd[3927]: Failed password for invalid user webadmin from 192.0.2.25 port 32298 ssh2
+May 14 09:08:59 ubuntu-server systemd-logind[1773]: Removed session 80.
+May 14 09:08:59 ubuntu-server sshd[3886]: Failed password for invalid user backup from 198.51.100.23 port 49461 ssh2
+May 14 09:09:00 ubuntu-server systemd-logind[1917]: New session 55 of user ops.
+May 14 09:09:02 ubuntu-server sshd[1405]: Failed password for invalid user guest from 192.0.2.40 port 40638 ssh2
+May 14 09:09:02 ubuntu-server CRON[1846]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:09:02 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2235:123456
+May 14 09:09:05 ubuntu-server sudo: analyst : TTY=pts/2 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:09:05 ubuntu-server sshd[3912]: Accepted publickey for monitor from 198.51.100.17 port 61569 ssh2
+May 14 09:09:07 ubuntu-server sshd[1908]: pam_unix(sshd:session): session closed for user backup
+May 14 09:09:13 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:09:14 ubuntu-server sudo: analyst : TTY=pts/2 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:09:17 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+May 14 09:09:18 ubuntu-server CRON[1727]: pam_unix(cron:session): session closed for user root
+May 14 09:09:25 ubuntu-server CRON[3765]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:09:26 ubuntu-server sshd[1372]: Accepted publickey for backup from 198.51.100.17 port 60915 ssh2
+May 14 09:09:28 ubuntu-server sshd[1307]: Failed password for webadmin from 192.0.2.25 port 45858 ssh2
+May 14 09:09:28 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2215:123456
+May 14 09:09:28 ubuntu-server CRON[3772]: pam_unix(cron:session): session closed for user root
+May 14 09:09:29 ubuntu-server sshd[3739]: Failed password for invalid user ops from 198.51.100.17 port 48166 ssh2
+May 14 09:09:32 ubuntu-server sshd[1053]: Failed password for deploy from 203.0.113.42 port 45211 ssh2
+May 14 09:09:36 ubuntu-server sshd[1304]: Connection closed by authenticating user webadmin 192.0.2.40 port 32382 [preauth]
+May 14 09:09:37 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by monitor(uid=1006)
+May 14 09:09:40 ubuntu-server usermod[2107]: change user 'webadmin' shell from '/bin/bash' to '/bin/bash'
+May 14 09:09:40 ubuntu-server sshd[3894]: Failed password for invalid user backup from 198.51.100.17 port 39146 ssh2
+May 14 09:09:41 ubuntu-server CRON[3749]: pam_unix(cron:session): session closed for user root
+May 14 09:09:55 ubuntu-server systemd-logind[3729]: New session 33 of user analyst.
+May 14 09:09:56 ubuntu-server sshd[3831]: Accepted publickey for reporting from 192.0.2.55 port 50586 ssh2
+May 14 09:10:04 ubuntu-server CRON[1810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:10:08 ubuntu-server sshd[1386]: Accepted publickey for backup from 198.51.100.17 port 40412 ssh2
+May 14 09:10:08 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:10:11 ubuntu-server sshd[1054]: Failed password for test from 203.0.113.42 port 45218 ssh2
+May 14 09:10:11 ubuntu-server sshd[3664]: Accepted publickey for monitor from 192.0.2.25 port 57444 ssh2
+May 14 09:10:16 ubuntu-server sshd[3816]: Failed password for invalid user reporting from 192.0.2.55 port 61513 ssh2
+May 14 09:10:19 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:10:25 ubuntu-server pam_unix(login:session): session opened for user analyst(uid=1005) by LOGIN(uid=0)
+May 14 09:10:30 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:10:33 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:10:40 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2262:123456
+May 14 09:10:40 ubuntu-server CRON[3834]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:10:42 ubuntu-server CRON[3770]: pam_unix(cron:session): session closed for user root
+May 14 09:10:48 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/nginx/access.log
+May 14 09:10:49 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/df
+May 14 09:10:50 ubuntu-server sshd[1055]: Failed password for root from 203.0.113.42 port 45225 ssh2
+May 14 09:10:50 ubuntu-server systemd-logind[3741]: New session 38 of user webadmin.
+May 14 09:10:54 ubuntu-server usermod[2107]: change user 'webadmin' shell from '/bin/bash' to '/bin/bash'
+May 14 09:11:00 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2201:123456
+May 14 09:11:05 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/rsync --version
+May 14 09:11:07 ubuntu-server CRON[3963]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:11:08 ubuntu-server sshd[1329]: Accepted publickey for webadmin from 192.0.2.55 port 36911 ssh2
+May 14 09:11:10 ubuntu-server sshd[2218]: Invalid user guest from 198.51.100.17 port 60936
+May 14 09:11:13 ubuntu-server sshd[1362]: Accepted publickey for reporting from 192.0.2.55 port 61398 ssh2
+May 14 09:11:15 ubuntu-server CRON[1859]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:11:16 ubuntu-server sudo: webadmin : TTY=pts/0 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/nginx -t
+May 14 09:11:20 ubuntu-server sshd[1312]: Accepted publickey for analyst from 198.51.100.17 port 52854 ssh2
+May 14 09:11:27 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/du -sh /backup
+May 14 09:11:27 ubuntu-server CRON[3800]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:11:28 ubuntu-server sshd[1399]: Failed password for invalid user guest from 198.51.100.23 port 34502 ssh2
+May 14 09:11:29 ubuntu-server sshd[1056]: Failed password for oracle from 203.0.113.42 port 45232 ssh2
+May 14 09:11:29 ubuntu-server sshd[1729]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:11:31 ubuntu-server sshd[1829]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:11:34 ubuntu-server CRON[3911]: pam_unix(cron:session): session closed for user root
+May 14 09:11:37 ubuntu-server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.77
+May 14 09:11:40 ubuntu-server CRON[1848]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:11:43 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:11:47 ubuntu-server sudo: ops : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:11:48 ubuntu-server CRON[3900]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:11:51 ubuntu-server CRON[3956]: pam_unix(cron:session): session closed for user root
+May 14 09:11:53 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2212:123456
+May 14 09:11:53 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:11:53 ubuntu-server systemd-logind[3719]: New session 68 of user reporting.
+May 14 09:11:57 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:11:59 ubuntu-server sshd[3791]: Failed password for invalid user ops from 192.0.2.25 port 43770 ssh2
+May 14 09:12:00 ubuntu-server sshd[1786]: pam_unix(sshd:session): session opened for user monitor(uid=1006) by (uid=0)
+May 14 09:12:02 ubuntu-server sudo: ops : TTY=pts/4 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+May 14 09:12:06 ubuntu-server systemd-logind[1790]: New session 27 of user webadmin.
+May 14 09:12:08 ubuntu-server sshd[1057]: Failed password for deploy from 203.0.113.42 port 45239 ssh2
+May 14 09:12:11 ubuntu-server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:12:12 ubuntu-server CRON[3938]: pam_unix(cron:session): session closed for user root
+May 14 09:12:13 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:12:34 ubuntu-server CRON[3774]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:12:36 ubuntu-server sshd[1922]: pam_unix(sshd:session): session closed for user ops
+May 14 09:12:41 ubuntu-server systemd-logind[1905]: Removed session 42.
+May 14 09:12:43 ubuntu-server sshd[1350]: Accepted publickey for analyst from 198.51.100.17 port 60071 ssh2
+May 14 09:12:47 ubuntu-server sshd[1058]: Failed password for root from 203.0.113.42 port 45246 ssh2
+May 14 09:12:48 ubuntu-server passwd[2108]: password changed for backup
+May 14 09:12:48 ubuntu-server sshd[3689]: Failed password for invalid user backup from 192.0.2.55 port 40220 ssh2
+May 14 09:12:49 ubuntu-server sshd[1364]: Failed password for backup from 192.0.2.40 port 35537 ssh2
+May 14 09:12:59 ubuntu-server CRON[1886]: pam_unix(cron:session): session closed for user root
+May 14 09:13:00 ubuntu-server CRON[1884]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:13:05 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2213:123456
+May 14 09:13:07 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:13:10 ubuntu-server sshd[1343]: Accepted publickey for ops from 192.0.2.25 port 45200 ssh2
+May 14 09:13:13 ubuntu-server usermod[2107]: change user 'webadmin' shell from '/bin/bash' to '/bin/bash'
+May 14 09:13:15 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:13:21 ubuntu-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:13:21 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:13:22 ubuntu-server sshd[3714]: Accepted publickey for monitor from 198.51.100.17 port 49322 ssh2
+May 14 09:13:26 ubuntu-server sshd[1059]: Failed password for root from 203.0.113.42 port 45253 ssh2
+May 14 09:13:28 ubuntu-server systemd-logind[3860]: Removed session 78.
+May 14 09:13:29 ubuntu-server passwd[2103]: password changed for reporting
+May 14 09:13:30 ubuntu-server sshd[3854]: Failed password for invalid user ops from 198.51.100.23 port 50661 ssh2
+May 14 09:13:38 ubuntu-server sshd[1347]: Accepted publickey for ops from 198.51.100.17 port 47867 ssh2
+May 14 09:13:38 ubuntu-server sshd[1896]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:13:48 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:13:51 ubuntu-server CRON[1775]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:13:54 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:13:54 ubuntu-server sudo: ops : TTY=pts/2 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:13:58 ubuntu-server sshd[1359]: Accepted publickey for analyst from 192.0.2.40 port 38479 ssh2
+May 14 09:13:59 ubuntu-server sshd[3890]: Accepted publickey for reporting from 192.0.2.40 port 55840 ssh2
+May 14 09:14:04 ubuntu-server sshd[3702]: Failed password for invalid user webadmin from 192.0.2.25 port 44073 ssh2
+May 14 09:14:05 ubuntu-server sshd[1060]: Failed password for deploy from 203.0.113.42 port 45260 ssh2
+May 14 09:14:06 ubuntu-server sshd[3856]: Failed password for invalid user reporting from 198.51.100.17 port 50966 ssh2
+May 14 09:14:06 ubuntu-server sshd[3928]: Failed password for invalid user reporting from 198.51.100.23 port 56294 ssh2
+May 14 09:14:08 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2252:123456
+May 14 09:14:10 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:14:13 ubuntu-server sudo: analyst : TTY=pts/3 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:14:14 ubuntu-server sshd[1328]: Accepted publickey for monitor from 192.0.2.40 port 51073 ssh2
+May 14 09:14:19 ubuntu-server sshd[3677]: Failed password for invalid user backup from 198.51.100.23 port 48039 ssh2
+May 14 09:14:23 ubuntu-server sudo: monitor : TTY=pts/4 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:14:25 ubuntu-server sshd[3703]: Failed password for invalid user reporting from 192.0.2.25 port 58629 ssh2
+May 14 09:14:26 ubuntu-server pam_unix(login:session): session opened for user analyst(uid=1005) by LOGIN(uid=0)
+May 14 09:14:28 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:14:31 ubuntu-server sshd[1339]: Accepted publickey for reporting from 198.51.100.17 port 38273 ssh2
+May 14 09:14:31 ubuntu-server sshd[3721]: Accepted publickey for ops from 198.51.100.23 port 54285 ssh2
+May 14 09:14:44 ubuntu-server sshd[1061]: Failed password for deploy from 203.0.113.42 port 45267 ssh2
+May 14 09:14:44 ubuntu-server CRON[3826]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:14:54 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:15:00 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:15:01 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+May 14 09:15:07 ubuntu-server sshd[1941]: pam_unix(sshd:session): session opened for user backup(uid=1003) by (uid=0)
+May 14 09:15:11 ubuntu-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:15:12 ubuntu-server systemd-logind[1950]: New session 35 of user deploy.
+May 14 09:15:22 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2205:123456
+May 14 09:15:23 ubuntu-server sshd[1062]: Failed password for test from 203.0.113.42 port 45274 ssh2
+May 14 09:15:29 ubuntu-server CRON[1801]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:15:30 ubuntu-server systemd-logind[3904]: New session 62 of user analyst.
+May 14 09:15:32 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:15:35 ubuntu-server sudo: ops : TTY=pts/4 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df
+May 14 09:15:42 ubuntu-server CRON[1731]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:15:47 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/rsync --version
+May 14 09:15:47 ubuntu-server sshd[1860]: pam_unix(sshd:session): session closed for user ops
+May 14 09:15:58 ubuntu-server CRON[1850]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:16:02 ubuntu-server sshd[1063]: Failed password for test from 203.0.113.42 port 45281 ssh2
+May 14 09:16:05 ubuntu-server CRON[3821]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:16:06 ubuntu-server sudo: ops : TTY=pts/4 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:16:14 ubuntu-server CRON[1809]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:16:20 ubuntu-server sshd[3690]: Accepted publickey for backup from 198.51.100.17 port 61064 ssh2
+May 14 09:16:21 ubuntu-server CRON[1772]: pam_unix(cron:session): session closed for user root
+May 14 09:16:27 ubuntu-server sshd[1793]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:16:27 ubuntu-server CRON[1911]: pam_unix(cron:session): session closed for user root
+May 14 09:16:28 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:16:39 ubuntu-server sshd[3675]: Failed password for invalid user analyst from 192.0.2.55 port 41121 ssh2
+May 14 09:16:40 ubuntu-server CRON[3918]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:16:41 ubuntu-server sshd[1064]: Failed password for oracle from 203.0.113.42 port 45288 ssh2
+May 14 09:16:56 ubuntu-server sshd[3842]: Failed password for invalid user backup from 198.51.100.17 port 39419 ssh2
+May 14 09:16:59 ubuntu-server CRON[3680]: pam_unix(cron:session): session closed for user root
+May 14 09:17:04 ubuntu-server sshd[1370]: Accepted publickey for reporting from 192.0.2.55 port 56443 ssh2
+May 14 09:17:05 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:17:08 ubuntu-server CRON[3735]: pam_unix(cron:session): session closed for user root
+May 14 09:17:10 ubuntu-server sshd[1366]: Failed password for reporting from 192.0.2.40 port 37606 ssh2
+May 14 09:17:11 ubuntu-server sshd[1840]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+May 14 09:17:14 ubuntu-server sshd[1714]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:17:19 ubuntu-server sshd[1311]: Accepted publickey for reporting from 192.0.2.40 port 56524 ssh2
+May 14 09:17:20 ubuntu-server sshd[1065]: Failed password for root from 203.0.113.42 port 45295 ssh2
+May 14 09:17:27 ubuntu-server systemd-logind[3704]: New session 20 of user ops.
+May 14 09:17:32 ubuntu-server sshd[3788]: Failed password for invalid user backup from 192.0.2.40 port 32710 ssh2
+May 14 09:17:38 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:17:39 ubuntu-server sshd[1382]: Failed password for invalid user guest from 192.0.2.55 port 61657 ssh2
+May 14 09:17:40 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+May 14 09:17:56 ubuntu-server CRON[1756]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:17:59 ubuntu-server sshd[1066]: Failed password for admin from 203.0.113.42 port 45302 ssh2
+May 14 09:18:03 ubuntu-server CRON[3691]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:18:09 ubuntu-server systemd-logind[3698]: New session 17 of user backup.
+May 14 09:18:09 ubuntu-server CRON[3846]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:18:18 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:18:19 ubuntu-server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.77
+May 14 09:18:27 ubuntu-server CRON[3891]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:18:31 ubuntu-server sudo: monitor : TTY=pts/2 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:18:38 ubuntu-server sshd[1067]: Failed password for oracle from 203.0.113.42 port 45309 ssh2
+May 14 09:18:39 ubuntu-server systemd-logind[3913]: Removed session 39.
+May 14 09:18:43 ubuntu-server sshd[3762]: Accepted publickey for reporting from 192.0.2.25 port 54751 ssh2
+May 14 09:18:50 ubuntu-server sshd[1725]: pam_unix(sshd:session): session opened for user monitor(uid=1006) by (uid=0)
+May 14 09:18:56 ubuntu-server sshd[1853]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:18:57 ubuntu-server systemd-logind[1844]: New session 42 of user deploy.
+May 14 09:19:08 ubuntu-server CRON[3798]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:19:17 ubuntu-server sshd[1068]: Failed password for deploy from 203.0.113.42 port 45316 ssh2
+May 14 09:19:18 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:19:22 ubuntu-server CRON[1822]: pam_unix(cron:session): session closed for user root
+May 14 09:19:37 ubuntu-server sshd[1788]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:19:48 ubuntu-server CRON[3806]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:19:51 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:19:52 ubuntu-server sshd[1361]: Accepted publickey for monitor from 192.0.2.40 port 30143 ssh2
+May 14 09:19:56 ubuntu-server sshd[1069]: Failed password for oracle from 203.0.113.42 port 45323 ssh2
+May 14 09:19:58 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:20:03 ubuntu-server sshd[3771]: Accepted publickey for analyst from 192.0.2.25 port 55658 ssh2
+May 14 09:20:06 ubuntu-server CRON[1958]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:20:08 ubuntu-server CRON[3776]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:20:11 ubuntu-server systemd-logind[3954]: Removed session 33.
+May 14 09:20:14 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/nginx -t
+May 14 09:20:17 ubuntu-server sshd[1310]: Connection closed by authenticating user monitor 192.0.2.55 port 30265 [preauth]
+May 14 09:20:20 ubuntu-server sshd[1867]: pam_unix(sshd:session): session closed for user analyst
+May 14 09:20:20 ubuntu-server systemd-logind[3899]: Removed session 43.
+May 14 09:20:22 ubuntu-server CRON[3979]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:20:27 ubuntu-server CRON[3905]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:20:28 ubuntu-server systemd-logind[3835]: Removed session 51.
+May 14 09:20:35 ubuntu-server sshd[1070]: Failed password for deploy from 203.0.113.42 port 45330 ssh2
+May 14 09:20:38 ubuntu-server CRON[1837]: pam_unix(cron:session): session closed for user root
+May 14 09:20:38 ubuntu-server systemd-logind[3924]: Removed session 43.
+May 14 09:20:39 ubuntu-server sshd[1326]: Accepted publickey for ops from 192.0.2.40 port 39754 ssh2
+May 14 09:20:45 ubuntu-server CRON[1879]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:20:47 ubuntu-server CRON[3934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:20:52 ubuntu-server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/rsync --version
+May 14 09:20:53 ubuntu-server sshd[1340]: Accepted publickey for monitor from 198.51.100.17 port 40744 ssh2
+May 14 09:20:56 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/du -sh /backup
+May 14 09:21:00 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:21:05 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:21:06 ubuntu-server systemd-logind[3985]: New session 80 of user ops.
+May 14 09:21:07 ubuntu-server sudo: monitor : TTY=pts/4 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:21:10 ubuntu-server sshd[3665]: Accepted publickey for analyst from 192.0.2.55 port 60645 ssh2
+May 14 09:21:14 ubuntu-server sshd[1071]: Failed password for deploy from 203.0.113.42 port 45337 ssh2
+May 14 09:21:14 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:21:16 ubuntu-server systemd-logind[1764]: New session 66 of user analyst.
+May 14 09:21:16 ubuntu-server systemd-logind[3683]: Removed session 40.
+May 14 09:21:19 ubuntu-server sshd[1320]: Accepted publickey for webadmin from 198.51.100.23 port 30439 ssh2
+May 14 09:21:33 ubuntu-server systemd-logind[1838]: New session 63 of user webadmin.
+May 14 09:21:35 ubuntu-server chage[2106]: changed password expiry information for reporting
+May 14 09:21:36 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2210:123456
+May 14 09:21:43 ubuntu-server sshd[3746]: Failed password for invalid user reporting from 192.0.2.55 port 36691 ssh2
+May 14 09:21:44 ubuntu-server systemd-logind[3802]: New session 97 of user reporting.
+May 14 09:21:45 ubuntu-server sshd[1939]: pam_unix(sshd:session): session opened for user monitor(uid=1006) by (uid=0)
+May 14 09:21:50 ubuntu-server sshd[1338]: Failed password for monitor from 198.51.100.23 port 30350 ssh2
+May 14 09:21:50 ubuntu-server sshd[3987]: Failed password for invalid user reporting from 192.0.2.40 port 47918 ssh2
+May 14 09:21:52 ubuntu-server pam_unix(login:session): session opened for user ops(uid=1001) by LOGIN(uid=0)
+May 14 09:21:52 ubuntu-server systemd-logind[3964]: New session 31 of user monitor.
+May 14 09:21:53 ubuntu-server sshd[1072]: Failed password for deploy from 203.0.113.42 port 45344 ssh2
+May 14 09:21:58 ubuntu-server CRON[3737]: pam_unix(cron:session): session closed for user root
+May 14 09:21:59 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:22:00 ubuntu-server sshd[3674]: Accepted publickey for webadmin from 198.51.100.17 port 36097 ssh2
+May 14 09:22:07 ubuntu-server systemd-logind[1754]: New session 33 of user deploy.
+May 14 09:22:09 ubuntu-server CRON[1746]: pam_unix(cron:session): session closed for user root
+May 14 09:22:09 ubuntu-server systemd-logind[3709]: New session 96 of user webadmin.
+May 14 09:22:10 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2293:123456
+May 14 09:22:10 ubuntu-server CRON[3986]: pam_unix(cron:session): session closed for user root
+May 14 09:22:21 ubuntu-server passwd[2108]: password changed for backup
+May 14 09:22:32 ubuntu-server sshd[1073]: Failed password for oracle from 203.0.113.42 port 45351 ssh2
+May 14 09:22:43 ubuntu-server pam_unix(login:session): session opened for user ops(uid=1001) by LOGIN(uid=0)
+May 14 09:22:48 ubuntu-server CRON[1741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:22:56 ubuntu-server sshd[3813]: Failed password for invalid user ops from 198.51.100.17 port 39127 ssh2
+May 14 09:23:06 ubuntu-server CRON[3797]: pam_unix(cron:session): session closed for user root
+May 14 09:23:11 ubuntu-server sshd[1074]: Failed password for root from 203.0.113.42 port 45358 ssh2
+May 14 09:23:13 ubuntu-server CRON[3738]: pam_unix(cron:session): session closed for user root
+May 14 09:23:14 ubuntu-server sshd[3815]: Failed password for invalid user backup from 192.0.2.40 port 56565 ssh2
+May 14 09:23:18 ubuntu-server systemd-logind[3827]: Removed session 62.
+May 14 09:23:26 ubuntu-server CRON[1765]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:23:26 ubuntu-server CRON[3869]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:23:28 ubuntu-server systemd-logind[1834]: Removed session 81.
+May 14 09:23:32 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:23:32 ubuntu-server CRON[3740]: pam_unix(cron:session): session closed for user root
+May 14 09:23:32 ubuntu-server sudo: reporting : TTY=pts/1 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:23:34 ubuntu-server usermod[2107]: change user 'webadmin' shell from '/bin/bash' to '/bin/bash'
+May 14 09:23:47 ubuntu-server CRON[3795]: pam_unix(cron:session): session closed for user root
+May 14 09:23:52 ubuntu-server sudo: ops : TTY=pts/4 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:23:57 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:23:57 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:24:02 ubuntu-server systemd-logind[1963]: New session 30 of user backup.
+May 14 09:24:04 ubuntu-server pam_unix(login:session): session opened for user ops(uid=1001) by LOGIN(uid=0)
+May 14 09:24:05 ubuntu-server sudo: analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:24:06 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+May 14 09:24:08 ubuntu-server sudo: reporting : TTY=pts/2 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:24:28 ubuntu-server systemd-logind[3980]: New session 88 of user webadmin.
+May 14 09:24:31 ubuntu-server sshd[1836]: pam_unix(sshd:session): session closed for user deploy
+May 14 09:24:32 ubuntu-server CRON[1728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:24:32 ubuntu-server sshd[3679]: Failed password for invalid user reporting from 192.0.2.55 port 56382 ssh2
+May 14 09:24:36 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:24:42 ubuntu-server sshd[1705]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:24:47 ubuntu-server sshd[1368]: Accepted publickey for reporting from 198.51.100.17 port 45079 ssh2
+May 14 09:24:48 ubuntu-server CRON[3850]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:24:54 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:24:57 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:24:58 ubuntu-server systemd-logind[3885]: Removed session 58.
+May 14 09:25:11 ubuntu-server CRON[3909]: pam_unix(cron:session): session closed for user root
+May 14 09:25:12 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:25:13 ubuntu-server sshd[3722]: Failed password for invalid user monitor from 198.51.100.23 port 34584 ssh2
+May 14 09:25:13 ubuntu-server sshd[3796]: Failed password for invalid user analyst from 192.0.2.55 port 50523 ssh2
+May 14 09:25:14 ubuntu-server sshd[1198]: Accepted password for deploy from 203.0.113.42 port 45390 ssh2
+May 14 09:25:14 ubuntu-server systemd-logind[3908]: New session 62 of user reporting.
+May 14 09:25:15 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/du -sh /backup
+May 14 09:25:16 ubuntu-server sshd[1198]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+May 14 09:25:20 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/tar -tf /backup/daily.tar
+May 14 09:25:23 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:25:25 ubuntu-server sshd[1198]: Received disconnect from 203.0.113.42 port 45390:11: disconnected by user
+May 14 09:25:29 ubuntu-server CRON[3847]: pam_unix(cron:session): session closed for user root
+May 14 09:25:34 ubuntu-server sshd[3694]: Failed password for invalid user reporting from 192.0.2.55 port 51193 ssh2
+May 14 09:25:37 ubuntu-server systemd-logind[3923]: Removed session 64.
+May 14 09:25:39 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/nginx/access.log
+May 14 09:25:39 ubuntu-server sshd[3828]: Failed password for invalid user reporting from 198.51.100.23 port 47390 ssh2
+May 14 09:25:44 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:25:48 ubuntu-server systemd-logind[3811]: Removed session 72.
+May 14 09:25:50 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2269:123456
+May 14 09:25:53 ubuntu-server chage[2106]: changed password expiry information for reporting
+May 14 09:25:58 ubuntu-server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/rsync --version
+May 14 09:26:17 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:26:23 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by webadmin(uid=1004)
+May 14 09:26:24 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by monitor(uid=1006)
+May 14 09:26:25 ubuntu-server systemd-logind[3682]: New session 83 of user reporting.
+May 14 09:26:26 ubuntu-server systemd-logind[3906]: New session 96 of user analyst.
+May 14 09:26:30 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:26:32 ubuntu-server sshd[1369]: Connection closed by authenticating user analyst 198.51.100.23 port 30872 [preauth]
+May 14 09:26:40 ubuntu-server systemd-logind[3793]: Removed session 11.
+May 14 09:26:59 ubuntu-server systemd-logind[3805]: New session 35 of user analyst.
+May 14 09:27:03 ubuntu-server sudo: deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/id
+May 14 09:27:05 ubuntu-server CRON[3948]: pam_unix(cron:session): session closed for user root
+May 14 09:27:12 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/tar -tf /backup/daily.tar
+May 14 09:27:13 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:27:19 ubuntu-server sudo: deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/whoami
+May 14 09:27:21 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:27:32 ubuntu-server systemd-logind[3755]: Removed session 43.
+May 14 09:27:34 ubuntu-server sudo: monitor : TTY=pts/4 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:27:38 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:27:41 ubuntu-server CRON[3718]: pam_unix(cron:session): session closed for user root
+May 14 09:27:43 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/df
+May 14 09:27:49 ubuntu-server CRON[3778]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:27:58 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:27:59 ubuntu-server sshd[2274]: Invalid user guest from 198.51.100.17 port 47681
+May 14 09:28:02 ubuntu-server sudo: deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/uname -a
+May 14 09:28:11 ubuntu-server sudo: ops : TTY=pts/2 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:28:21 ubuntu-server sshd[3688]: Accepted publickey for ops from 198.51.100.23 port 40618 ssh2
+May 14 09:28:23 ubuntu-server pam_unix(login:session): session opened for user webadmin(uid=1004) by LOGIN(uid=0)
+May 14 09:28:24 ubuntu-server CRON[1718]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:28:29 ubuntu-server sshd[3697]: Accepted publickey for reporting from 198.51.100.17 port 53189 ssh2
+May 14 09:28:38 ubuntu-server systemd-logind[1734]: New session 78 of user ops.
+May 14 09:28:40 ubuntu-server sudo: webadmin : TTY=pts/0 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:28:41 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:28:43 ubuntu-server systemd-logind[1918]: New session 30 of user analyst.
+May 14 09:28:47 ubuntu-server sudo: analyst : TTY=pts/2 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:28:48 ubuntu-server sshd[1721]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:28:53 ubuntu-server sudo: analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:28:54 ubuntu-server sshd[1390]: Accepted publickey for backup from 198.51.100.23 port 56915 ssh2
+May 14 09:28:55 ubuntu-server CRON[1931]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:29:01 ubuntu-server CRON[1862]: pam_unix(cron:session): session closed for user root
+May 14 09:29:11 ubuntu-server sshd[1759]: pam_unix(sshd:session): session closed for user webadmin
+May 14 09:29:14 ubuntu-server systemd-logind[3792]: Removed session 73.
+May 14 09:29:21 ubuntu-server sshd[2230]: Connection closed by invalid user test 198.51.100.23 port 47279 [preauth]
+May 14 09:29:25 ubuntu-server sshd[1357]: Accepted publickey for backup from 198.51.100.17 port 56182 ssh2
+May 14 09:29:29 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/rsync --version
+May 14 09:29:29 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:29:34 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:29:41 ubuntu-server sudo: deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/last
+May 14 09:29:46 ubuntu-server sshd[1318]: Accepted publickey for monitor from 198.51.100.23 port 61451 ssh2
+May 14 09:29:51 ubuntu-server sshd[1387]: Accepted publickey for backup from 198.51.100.23 port 35285 ssh2
+May 14 09:29:51 ubuntu-server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:30:13 ubuntu-server sshd[1400]: Failed password for invalid user guest from 198.51.100.23 port 38014 ssh2
+May 14 09:30:15 ubuntu-server systemd-logind[3952]: Removed session 46.
+May 14 09:30:18 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:30:20 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:30:21 ubuntu-server sudo: reporting : TTY=pts/3 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:30:23 ubuntu-server chage[2106]: changed password expiry information for reporting
+May 14 09:30:23 ubuntu-server systemd-logind[3875]: Removed session 27.
+May 14 09:30:27 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:30:29 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by webadmin(uid=1004)
+May 14 09:30:30 ubuntu-server sshd[1827]: pam_unix(sshd:session): session closed for user backup
+May 14 09:30:34 ubuntu-server sshd[3706]: Accepted publickey for analyst from 192.0.2.40 port 44930 ssh2
+May 14 09:30:39 ubuntu-server CRON[3889]: pam_unix(cron:session): session closed for user root
+May 14 09:30:39 ubuntu-server systemd-logind[3962]: New session 55 of user analyst.
+May 14 09:30:42 ubuntu-server systemd-logind[1732]: New session 40 of user ops.
+May 14 09:30:43 ubuntu-server CRON[1871]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:30:47 ubuntu-server pam_unix(login:session): session opened for user monitor(uid=1006) by LOGIN(uid=0)
+May 14 09:30:50 ubuntu-server sshd[1303]: Connection closed by authenticating user backup 198.51.100.23 port 50172 [preauth]
+May 14 09:30:55 ubuntu-server pam_unix(login:session): session opened for user ops(uid=1001) by LOGIN(uid=0)
+May 14 09:30:57 ubuntu-server systemd-logind[1869]: New session 40 of user backup.
+May 14 09:30:57 ubuntu-server sshd[3701]: Accepted publickey for analyst from 192.0.2.25 port 32430 ssh2
+May 14 09:30:58 ubuntu-server CRON[1952]: pam_unix(cron:session): session closed for user root
+May 14 09:31:05 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:31:11 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+May 14 09:31:12 ubuntu-server CRON[3920]: pam_unix(cron:session): session closed for user root
+May 14 09:31:14 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2282:123456
+May 14 09:31:17 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by analyst(uid=1005)
+May 14 09:31:19 ubuntu-server sshd[3897]: Accepted publickey for monitor from 192.0.2.55 port 41360 ssh2
+May 14 09:31:24 ubuntu-server systemd-logind[1883]: Removed session 15.
+May 14 09:31:24 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:31:29 ubuntu-server sshd[3871]: Failed password for invalid user reporting from 192.0.2.40 port 58988 ssh2
+May 14 09:31:39 ubuntu-server CRON[1703]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:31:41 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:31:44 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2233:123456
+May 14 09:31:46 ubuntu-server systemd-logind[3968]: Removed session 72.
+May 14 09:31:47 ubuntu-server sshd[2251]: Connection closed by invalid user test 198.51.100.23 port 51113 [preauth]
+May 14 09:31:49 ubuntu-server systemd-logind[3974]: Removed session 39.
+May 14 09:31:52 ubuntu-server systemd-logind[1897]: Removed session 30.
+May 14 09:31:52 ubuntu-server CRON[3700]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:31:53 ubuntu-server systemd-logind[3984]: Removed session 31.
+May 14 09:31:56 ubuntu-server sshd[1398]: Accepted publickey for ops from 192.0.2.40 port 35777 ssh2
+May 14 09:32:03 ubuntu-server sudo: webadmin : TTY=pts/4 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/nginx/access.log
+May 14 09:32:03 ubuntu-server CRON[3866]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:32:06 ubuntu-server sshd[1785]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:32:07 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:32:08 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:32:14 ubuntu-server sshd[1353]: Accepted publickey for webadmin from 192.0.2.40 port 55873 ssh2
+May 14 09:32:15 ubuntu-server systemd-logind[3965]: New session 49 of user monitor.
+May 14 09:32:16 ubuntu-server sshd[1408]: Accepted publickey for analyst from 192.0.2.55 port 60566 ssh2
+May 14 09:32:16 ubuntu-server CRON[3861]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:32:18 ubuntu-server CRON[3833]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:32:34 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/nginx -t
+May 14 09:32:40 ubuntu-server CRON[3852]: pam_unix(cron:session): session closed for user root
+May 14 09:32:41 ubuntu-server useradd[2101]: new group: name=reporting, GID=1102
+May 14 09:32:45 ubuntu-server CRON[1900]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:32:45 ubuntu-server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.77
+May 14 09:32:56 ubuntu-server systemd-logind[1745]: New session 58 of user webadmin.
+May 14 09:33:01 ubuntu-server sshd[1349]: Accepted publickey for webadmin from 192.0.2.25 port 44974 ssh2
+May 14 09:33:07 ubuntu-server CRON[3853]: pam_unix(cron:session): session closed for user root
+May 14 09:33:09 ubuntu-server sshd[3671]: Failed password for invalid user reporting from 192.0.2.55 port 58466 ssh2
+May 14 09:33:11 ubuntu-server sshd[1336]: Failed password for invalid user guest from 192.0.2.40 port 38867 ssh2
+May 14 09:33:13 ubuntu-server sshd[1375]: Failed password for invalid user guest from 192.0.2.25 port 48556 ssh2
+May 14 09:33:17 ubuntu-server sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:33:18 ubuntu-server CRON[3695]: pam_unix(cron:session): session closed for user root
+May 14 09:33:24 ubuntu-server CRON[3884]: pam_unix(cron:session): session closed for user root
+May 14 09:33:27 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:33:34 ubuntu-server sshd[1394]: Accepted publickey for monitor from 198.51.100.17 port 60121 ssh2
+May 14 09:33:37 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:33:37 ubuntu-server sshd[2283]: Invalid user guest from 198.51.100.17 port 54839
+May 14 09:33:42 ubuntu-server systemd-logind[3925]: New session 79 of user reporting.
+May 14 09:33:48 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:33:50 ubuntu-server sshd[1811]: pam_unix(sshd:session): session closed for user analyst
+May 14 09:33:50 ubuntu-server usermod[2107]: change user 'webadmin' shell from '/bin/bash' to '/bin/bash'
+May 14 09:34:01 ubuntu-server sshd[1766]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:34:01 ubuntu-server systemd-logind[3764]: New session 97 of user reporting.
+May 14 09:34:02 ubuntu-server CRON[1923]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:34:14 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2268:123456
+May 14 09:34:15 ubuntu-server sshd[1322]: Accepted publickey for reporting from 192.0.2.55 port 49920 ssh2
+May 14 09:34:16 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:34:17 ubuntu-server sshd[1356]: Accepted publickey for analyst from 198.51.100.23 port 51410 ssh2
+May 14 09:34:31 ubuntu-server CRON[1854]: pam_unix(cron:session): session closed for user root
+May 14 09:34:39 ubuntu-server passwd[2108]: password changed for backup
+May 14 09:34:39 ubuntu-server sshd[3767]: Failed password for invalid user backup from 192.0.2.40 port 35714 ssh2
+May 14 09:34:40 ubuntu-server sshd[1925]: pam_unix(sshd:session): session closed for user deploy
+May 14 09:34:41 ubuntu-server CRON[3699]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:34:46 ubuntu-server systemd-logind[3692]: New session 40 of user webadmin.
+May 14 09:34:47 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:34:48 ubuntu-server sudo: monitor : TTY=pts/2 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:34:55 ubuntu-server sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:34:56 ubuntu-server CRON[1924]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:34:56 ubuntu-server sudo: monitor : TTY=pts/2 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:34:59 ubuntu-server CRON[1864]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:34:59 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:35:06 ubuntu-server sshd[1352]: Failed password for ops from 192.0.2.25 port 53997 ssh2
+May 14 09:35:08 ubuntu-server pam_unix(login:session): session opened for user ops(uid=1001) by LOGIN(uid=0)
+May 14 09:35:12 ubuntu-server sshd[1407]: Accepted publickey for monitor from 198.51.100.17 port 30356 ssh2
+May 14 09:35:12 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:35:20 ubuntu-server sshd[1333]: Accepted publickey for backup from 198.51.100.17 port 42132 ssh2
+May 14 09:35:20 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:35:21 ubuntu-server systemd-logind[1843]: New session 41 of user backup.
+May 14 09:35:22 ubuntu-server systemd-logind[3687]: New session 22 of user backup.
+May 14 09:35:25 ubuntu-server sshd[1301]: Accepted publickey for backup from 198.51.100.23 port 37774 ssh2
+May 14 09:35:31 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:35:31 ubuntu-server CRON[3789]: pam_unix(cron:session): session closed for user root
+May 14 09:35:37 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by analyst(uid=1005)
+May 14 09:35:41 ubuntu-server sshd[1324]: Accepted publickey for webadmin from 192.0.2.40 port 61575 ssh2
+May 14 09:35:43 ubuntu-server CRON[3870]: pam_unix(cron:session): session closed for user root
+May 14 09:35:52 ubuntu-server CRON[3754]: pam_unix(cron:session): session closed for user root
+May 14 09:35:55 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:35:59 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:36:06 ubuntu-server CRON[1936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:36:07 ubuntu-server CRON[1815]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:36:09 ubuntu-server CRON[1870]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:36:13 ubuntu-server systemd-logind[1706]: New session 36 of user monitor.
+May 14 09:36:16 ubuntu-server sshd[1946]: pam_unix(sshd:session): session closed for user deploy
+May 14 09:36:19 ubuntu-server useradd[2102]: new user: name=reporting, UID=1102, GID=1102, home=/home/reporting, shell=/bin/bash
+May 14 09:36:20 ubuntu-server sshd[1332]: Accepted publickey for ops from 198.51.100.17 port 43805 ssh2
+May 14 09:36:20 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:36:23 ubuntu-server sshd[1306]: Accepted publickey for analyst from 192.0.2.25 port 50076 ssh2
+May 14 09:36:23 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/nginx/access.log
+May 14 09:36:24 ubuntu-server systemd-logind[1748]: Removed session 27.
+May 14 09:36:24 ubuntu-server sshd[1877]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:36:27 ubuntu-server sudo: ops : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:36:28 ubuntu-server CRON[1949]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:36:28 ubuntu-server sshd[3723]: Failed password for invalid user monitor from 192.0.2.55 port 51038 ssh2
+May 14 09:36:34 ubuntu-server sshd[1795]: pam_unix(sshd:session): session closed for user monitor
+May 14 09:36:37 ubuntu-server sshd[1888]: pam_unix(sshd:session): session closed for user ops
+May 14 09:36:48 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:37:03 ubuntu-server systemd-logind[3823]: Removed session 56.
+May 14 09:37:07 ubuntu-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:37:08 ubuntu-server sshd[1968]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:37:16 ubuntu-server CRON[1742]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:37:28 ubuntu-server systemd-logind[1969]: New session 19 of user backup.
+May 14 09:37:30 ubuntu-server sshd[1346]: Accepted publickey for backup from 192.0.2.40 port 61926 ssh2
+May 14 09:37:33 ubuntu-server CRON[1723]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:37:44 ubuntu-server sudo: analyst : TTY=pts/2 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:37:53 ubuntu-server sshd[1395]: Accepted publickey for analyst from 198.51.100.23 port 60989 ssh2
+May 14 09:37:56 ubuntu-server CRON[1814]: pam_unix(cron:session): session closed for user root
+May 14 09:37:56 ubuntu-server CRON[3747]: pam_unix(cron:session): session closed for user root
+May 14 09:38:00 ubuntu-server sshd[1383]: Accepted publickey for monitor from 192.0.2.25 port 43886 ssh2
+May 14 09:38:21 ubuntu-server sshd[2263]: Connection closed by invalid user test 198.51.100.23 port 42734 [preauth]
+May 14 09:38:23 ubuntu-server sshd[3993]: Accepted publickey for monitor from 198.51.100.23 port 48657 ssh2
+May 14 09:38:30 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:38:42 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:38:42 ubuntu-server sshd[3946]: Accepted publickey for analyst from 192.0.2.40 port 43409 ssh2
+May 14 09:38:46 ubuntu-server systemd-logind[1820]: Removed session 33.
+May 14 09:38:48 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:38:53 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:38:54 ubuntu-server sshd[1402]: Failed password for backup from 192.0.2.40 port 46180 ssh2
+May 14 09:38:57 ubuntu-server systemd-logind[3780]: New session 69 of user backup.
+May 14 09:39:08 ubuntu-server sshd[1942]: pam_unix(sshd:session): session opened for user monitor(uid=1006) by (uid=0)
+May 14 09:39:13 ubuntu-server CRON[1747]: pam_unix(cron:session): session closed for user root
+May 14 09:39:16 ubuntu-server CRON[3969]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:39:17 ubuntu-server CRON[3907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:39:27 ubuntu-server sshd[3981]: Accepted publickey for webadmin from 192.0.2.25 port 60954 ssh2
+May 14 09:39:29 ubuntu-server CRON[3783]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:39:30 ubuntu-server usermod[2107]: change user 'webadmin' shell from '/bin/bash' to '/bin/bash'
+May 14 09:39:31 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:39:37 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2271:123456
+May 14 09:39:39 ubuntu-server systemd-logind[1783]: Removed session 71.
+May 14 09:39:44 ubuntu-server sshd[3768]: Accepted publickey for reporting from 192.0.2.55 port 30582 ssh2
+May 14 09:39:52 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:39:52 ubuntu-server sshd[3743]: Failed password for invalid user ops from 198.51.100.23 port 34444 ssh2
+May 14 09:39:53 ubuntu-server CRON[3882]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:39:53 ubuntu-server systemd-logind[3953]: Removed session 53.
+May 14 09:40:04 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:40:11 ubuntu-server sshd[1784]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:40:11 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:40:12 ubuntu-server sshd[1943]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:40:26 ubuntu-server sshd[3661]: Failed password for invalid user ops from 192.0.2.40 port 37762 ssh2
+May 14 09:40:27 ubuntu-server sudo: monitor : TTY=pts/3 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:40:30 ubuntu-server CRON[3936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:40:35 ubuntu-server CRON[1798]: pam_unix(cron:session): session closed for user root
+May 14 09:40:37 ubuntu-server CRON[1781]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:40:39 ubuntu-server systemd-logind[3817]: Removed session 32.
+May 14 09:40:43 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:40:46 ubuntu-server sshd[1385]: Failed password for webadmin from 192.0.2.55 port 30398 ssh2
+May 14 09:40:48 ubuntu-server sshd[2259]: Invalid user guest from 198.51.100.17 port 36839
+May 14 09:40:52 ubuntu-server systemd-logind[1761]: New session 91 of user deploy.
+May 14 09:41:05 ubuntu-server sshd[1317]: Accepted publickey for reporting from 192.0.2.25 port 30268 ssh2
+May 14 09:41:06 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:41:19 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:41:20 ubuntu-server systemd-logind[3844]: New session 14 of user ops.
+May 14 09:41:28 ubuntu-server sshd[1381]: Failed password for invalid user guest from 198.51.100.17 port 36332 ssh2
+May 14 09:41:31 ubuntu-server sshd[1944]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:41:38 ubuntu-server sshd[1873]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:41:38 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:41:41 ubuntu-server CRON[3994]: pam_unix(cron:session): session closed for user root
+May 14 09:41:45 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:41:45 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df
+May 14 09:41:46 ubuntu-server sshd[1777]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+May 14 09:41:52 ubuntu-server sshd[1376]: Failed password for invalid user guest from 192.0.2.40 port 30819 ssh2
+May 14 09:41:53 ubuntu-server sudo: ops : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+May 14 09:41:57 ubuntu-server CRON[3684]: pam_unix(cron:session): session closed for user root
+May 14 09:42:04 ubuntu-server systemd-logind[3708]: New session 84 of user backup.
+May 14 09:42:07 ubuntu-server sudo: analyst : TTY=pts/3 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:42:12 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/nginx -t
+May 14 09:42:15 ubuntu-server pam_unix(login:session): session opened for user webadmin(uid=1004) by LOGIN(uid=0)
+May 14 09:42:16 ubuntu-server systemd-logind[1757]: New session 64 of user monitor.
+May 14 09:42:21 ubuntu-server sshd[1898]: pam_unix(sshd:session): session opened for user backup(uid=1003) by (uid=0)
+May 14 09:42:25 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:42:30 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2226:123456
+May 14 09:42:31 ubuntu-server CRON[1890]: pam_unix(cron:session): session closed for user root
+May 14 09:42:32 ubuntu-server sudo: analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:42:35 ubuntu-server CRON[3910]: pam_unix(cron:session): session closed for user root
+May 14 09:43:04 ubuntu-server sshd[3859]: Accepted publickey for analyst from 192.0.2.55 port 45009 ssh2
+May 14 09:43:08 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:43:11 ubuntu-server sshd[1315]: Accepted publickey for monitor from 192.0.2.55 port 56421 ssh2
+May 14 09:43:14 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:43:14 ubuntu-server CRON[3801]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:43:22 ubuntu-server systemd-logind[3732]: Removed session 54.
+May 14 09:43:22 ubuntu-server sshd[3926]: Accepted publickey for webadmin from 192.0.2.40 port 30576 ssh2
+May 14 09:43:27 ubuntu-server sudo: monitor : TTY=pts/3 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:43:28 ubuntu-server systemd-logind[1885]: New session 26 of user webadmin.
+May 14 09:43:28 ubuntu-server systemd-logind[1960]: Removed session 32.
+May 14 09:43:33 ubuntu-server systemd-logind[1855]: Removed session 70.
+May 14 09:43:34 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2211:123456
+May 14 09:43:45 ubuntu-server sshd[1719]: pam_unix(sshd:session): session closed for user ops
+May 14 09:43:52 ubuntu-server sshd[1794]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:43:52 ubuntu-server CRON[1915]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:43:53 ubuntu-server systemd-logind[3933]: New session 49 of user monitor.
+May 14 09:43:58 ubuntu-server sshd[1360]: Accepted publickey for monitor from 192.0.2.55 port 50444 ssh2
+May 14 09:43:58 ubuntu-server pam_unix(login:session): session opened for user backup(uid=1003) by LOGIN(uid=0)
+May 14 09:44:07 ubuntu-server CRON[1953]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:44:12 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:44:13 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:44:15 ubuntu-server sshd[1337]: Failed password for invalid user guest from 192.0.2.25 port 42753 ssh2
+May 14 09:44:18 ubuntu-server systemd-logind[3868]: Removed session 91.
+May 14 09:44:27 ubuntu-server sshd[3945]: Failed password for invalid user backup from 192.0.2.55 port 34094 ssh2
+May 14 09:44:28 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:44:30 ubuntu-server pam_unix(login:session): session opened for user analyst(uid=1005) by LOGIN(uid=0)
+May 14 09:44:32 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by webadmin(uid=1004)
+May 14 09:44:42 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:44:43 ubuntu-server CRON[3750]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:44:45 ubuntu-server CRON[1717]: pam_unix(cron:session): session closed for user root
+May 14 09:44:48 ubuntu-server CRON[1965]: pam_unix(cron:session): session closed for user root
+May 14 09:44:48 ubuntu-server sshd[3944]: Accepted publickey for webadmin from 192.0.2.25 port 44463 ssh2
+May 14 09:44:51 ubuntu-server sshd[3672]: Accepted publickey for monitor from 192.0.2.25 port 53307 ssh2
+May 14 09:44:52 ubuntu-server sshd[1305]: Connection closed by authenticating user reporting 198.51.100.17 port 60329 [preauth]
+May 14 09:44:54 ubuntu-server CRON[1889]: pam_unix(cron:session): session closed for user root
+May 14 09:45:03 ubuntu-server sshd[1300]: Accepted publickey for ops from 198.51.100.23 port 32474 ssh2
+May 14 09:45:10 ubuntu-server sudo: reporting : TTY=pts/3 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:45:21 ubuntu-server CRON[1959]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:45:24 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:45:24 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:45:26 ubuntu-server sudo: ops : TTY=pts/2 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+May 14 09:45:27 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:45:27 ubuntu-server sudo: ops : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:45:33 ubuntu-server sshd[1331]: Accepted publickey for backup from 198.51.100.17 port 39736 ssh2
+May 14 09:45:34 ubuntu-server sshd[3988]: Failed password for invalid user ops from 192.0.2.55 port 54255 ssh2
+May 14 09:45:44 ubuntu-server CRON[3872]: pam_unix(cron:session): session closed for user root
+May 14 09:45:47 ubuntu-server sshd[1345]: Failed password for invalid user guest from 198.51.100.23 port 39527 ssh2
+May 14 09:45:52 ubuntu-server CRON[3705]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:45:54 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:46:02 ubuntu-server pam_unix(login:session): session opened for user analyst(uid=1005) by LOGIN(uid=0)
+May 14 09:46:03 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/rsync --version
+May 14 09:46:04 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:46:08 ubuntu-server sshd[1391]: Failed password for invalid user guest from 192.0.2.55 port 55136 ssh2
+May 14 09:46:11 ubuntu-server passwd[2103]: password changed for reporting
+May 14 09:46:16 ubuntu-server sshd[3810]: Failed password for invalid user analyst from 192.0.2.40 port 60056 ssh2
+May 14 09:46:16 ubuntu-server systemd-logind[3957]: Removed session 47.
+May 14 09:46:21 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:46:21 ubuntu-server sudo: ops : TTY=pts/2 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+May 14 09:46:22 ubuntu-server sshd[1319]: Accepted publickey for reporting from 198.51.100.23 port 33889 ssh2
+May 14 09:46:27 ubuntu-server gpasswd[2105]: user ops added by ops to group app-readers
+May 14 09:46:32 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:46:34 ubuntu-server CRON[1893]: pam_unix(cron:session): session closed for user root
+May 14 09:46:35 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+May 14 09:46:39 ubuntu-server chage[2106]: changed password expiry information for reporting
+May 14 09:46:40 ubuntu-server CRON[3712]: pam_unix(cron:session): session closed for user root
+May 14 09:46:41 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2241:123456
+May 14 09:46:43 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:46:45 ubuntu-server systemd-logind[3849]: Removed session 39.
+May 14 09:46:45 ubuntu-server CRON[3887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:46:45 ubuntu-server sshd[3896]: Accepted publickey for monitor from 192.0.2.55 port 56463 ssh2
+May 14 09:46:50 ubuntu-server sudo: ops : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:46:51 ubuntu-server CRON[1769]: pam_unix(cron:session): session closed for user root
+May 14 09:46:51 ubuntu-server systemd-logind[3786]: Removed session 48.
+May 14 09:46:54 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+May 14 09:46:56 ubuntu-server systemd-logind[3794]: New session 79 of user webadmin.
+May 14 09:46:59 ubuntu-server CRON[1787]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:47:00 ubuntu-server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.77
+May 14 09:47:08 ubuntu-server CRON[3967]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:47:11 ubuntu-server CRON[1961]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:47:12 ubuntu-server systemd-logind[3851]: Removed session 56.
+May 14 09:47:20 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/tar -tf /backup/daily.tar
+May 14 09:47:30 ubuntu-server CRON[3837]: pam_unix(cron:session): session closed for user root
+May 14 09:47:32 ubuntu-server sshd[3736]: Accepted publickey for webadmin from 198.51.100.23 port 30207 ssh2
+May 14 09:47:36 ubuntu-server sshd[1342]: Failed password for invalid user guest from 192.0.2.40 port 37877 ssh2
+May 14 09:47:36 ubuntu-server pam_unix(login:session): session opened for user webadmin(uid=1004) by LOGIN(uid=0)
+May 14 09:47:38 ubuntu-server sshd[1334]: Accepted publickey for backup from 192.0.2.55 port 54318 ssh2
+May 14 09:47:43 ubuntu-server systemd-logind[1881]: New session 22 of user monitor.
+May 14 09:47:43 ubuntu-server sudo: reporting : TTY=pts/2 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:47:44 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:47:44 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:47:48 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:47:53 ubuntu-server sudo: reporting : TTY=pts/4 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:47:56 ubuntu-server sshd[3960]: Accepted publickey for reporting from 192.0.2.25 port 59491 ssh2
+May 14 09:47:59 ubuntu-server sshd[3998]: Accepted publickey for monitor from 192.0.2.40 port 33875 ssh2
+May 14 09:48:00 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2229:123456
+May 14 09:48:05 ubuntu-server CRON[1740]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:48:07 ubuntu-server pam_unix(login:session): session opened for user webadmin(uid=1004) by LOGIN(uid=0)
+May 14 09:48:10 ubuntu-server sudo: analyst : TTY=pts/2 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:48:21 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+May 14 09:48:23 ubuntu-server sshd[1309]: Accepted publickey for analyst from 198.51.100.23 port 60692 ssh2
+May 14 09:48:25 ubuntu-server systemd-logind[1956]: Removed session 47.
+May 14 09:48:29 ubuntu-server CRON[1916]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:48:49 ubuntu-server sshd[3888]: Accepted publickey for reporting from 192.0.2.25 port 45404 ssh2
+May 14 09:48:53 ubuntu-server sshd[3727]: Failed password for invalid user monitor from 192.0.2.40 port 56952 ssh2
+May 14 09:48:57 ubuntu-server sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:48:59 ubuntu-server sshd[1358]: Accepted publickey for reporting from 192.0.2.25 port 47308 ssh2
+May 14 09:49:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:49:14 ubuntu-server sshd[2275]: Connection closed by invalid user test 198.51.100.23 port 50273 [preauth]
+May 14 09:49:16 ubuntu-server sshd[1365]: Accepted publickey for backup from 192.0.2.40 port 32055 ssh2
+May 14 09:49:17 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:49:23 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:49:28 ubuntu-server sshd[3931]: Accepted publickey for ops from 198.51.100.23 port 43031 ssh2
+May 14 09:49:29 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2239:123456
+May 14 09:49:33 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:49:34 ubuntu-server pam_unix(login:session): session opened for user deploy(uid=1002) by LOGIN(uid=0)
+May 14 09:49:34 ubuntu-server systemd-logind[1845]: Removed session 52.
+May 14 09:49:41 ubuntu-server systemd-logind[3949]: Removed session 37.
+May 14 09:49:42 ubuntu-server systemd-logind[1913]: New session 19 of user ops.
+May 14 09:49:45 ubuntu-server su: pam_unix(su:session): session closed for user root
+May 14 09:49:45 ubuntu-server CRON[3864]: pam_unix(cron:session): session closed for user root
+May 14 09:49:48 ubuntu-server CRON[1828]: pam_unix(cron:session): session closed for user root
+May 14 09:49:56 ubuntu-server sshd[1374]: Accepted publickey for backup from 198.51.100.17 port 38929 ssh2
+May 14 09:49:56 ubuntu-server systemd-logind[3990]: Removed session 65.
+May 14 09:49:57 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:50:00 ubuntu-server CRON[3992]: pam_unix(cron:session): session closed for user root
+May 14 09:50:07 ubuntu-server CRON[1901]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:50:07 ubuntu-server sshd[3939]: Failed password for invalid user reporting from 192.0.2.25 port 37241 ssh2
+May 14 09:50:13 ubuntu-server sshd[2240]: Invalid user guest from 198.51.100.17 port 37707
+May 14 09:50:18 ubuntu-server sshd[2294]: Connection closed by invalid user test 198.51.100.23 port 55926 [preauth]
+May 14 09:50:20 ubuntu-server sshd[1401]: Accepted publickey for webadmin from 192.0.2.40 port 39970 ssh2
+May 14 09:50:22 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by webadmin(uid=1004)
+May 14 09:50:23 ubuntu-server systemd-logind[1957]: Removed session 32.
+May 14 09:50:24 ubuntu-server sshd[1938]: pam_unix(sshd:session): session closed for user deploy
+May 14 09:50:24 ubuntu-server systemd-logind[3898]: Removed session 34.
+May 14 09:50:26 ubuntu-server sshd[1909]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:50:27 ubuntu-server sshd[2207]: Connection closed by invalid user test 198.51.100.23 port 54815 [preauth]
+May 14 09:50:31 ubuntu-server sshd[1354]: Accepted publickey for backup from 198.51.100.23 port 46238 ssh2
+May 14 09:50:32 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2292:123456
+May 14 09:50:34 ubuntu-server systemd-logind[3763]: New session 88 of user webadmin.
+May 14 09:50:34 ubuntu-server systemd-logind[3966]: New session 66 of user webadmin.
+May 14 09:50:45 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:50:49 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:50:49 ubuntu-server CRON[1945]: pam_unix(cron:session): session closed for user root
+May 14 09:50:52 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+May 14 09:50:53 ubuntu-server sshd[1388]: Accepted publickey for backup from 198.51.100.17 port 38972 ssh2
+May 14 09:50:59 ubuntu-server sudo: analyst : TTY=pts/3 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/systemctl
+May 14 09:51:01 ubuntu-server CRON[1833]: pam_unix(cron:session): session closed for user root
+May 14 09:51:03 ubuntu-server sshd[3782]: Failed password for invalid user backup from 192.0.2.40 port 58320 ssh2
+May 14 09:51:05 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2279:123456
+May 14 09:51:06 ubuntu-server CRON[3808]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:51:19 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2280:123456
+May 14 09:51:21 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2247:123456
+May 14 09:51:22 ubuntu-server systemd-logind[1762]: New session 35 of user backup.
+May 14 09:51:22 ubuntu-server sshd[1842]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:51:26 ubuntu-server sudo: ops : TTY=pts/4 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:51:31 ubuntu-server sshd[3807]: Accepted publickey for ops from 198.51.100.17 port 58364 ssh2
+May 14 09:51:36 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/du -sh /backup
+May 14 09:51:38 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/nginx -t
+May 14 09:51:42 ubuntu-server systemd-logind[1903]: Removed session 10.
+May 14 09:51:43 ubuntu-server CRON[3915]: pam_unix(cron:session): session closed for user root
+May 14 09:51:49 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:51:52 ubuntu-server sudo: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+May 14 09:51:56 ubuntu-server sshd[3730]: Accepted publickey for backup from 198.51.100.23 port 51649 ssh2
+May 14 09:52:00 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2291:123456
+May 14 09:52:01 ubuntu-server sshd[3839]: Failed password for invalid user webadmin from 198.51.100.17 port 44960 ssh2
+May 14 09:52:02 ubuntu-server CRON[3726]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:52:06 ubuntu-server sshd[3971]: Failed password for invalid user monitor from 192.0.2.55 port 46842 ssh2
+May 14 09:52:18 ubuntu-server sshd[3716]: Failed password for invalid user webadmin from 198.51.100.23 port 32066 ssh2
+May 14 09:52:20 ubuntu-server systemd-logind[1947]: New session 50 of user webadmin.
+May 14 09:52:20 ubuntu-server systemd-logind[3818]: Removed session 82.
+May 14 09:52:24 ubuntu-server sudo: monitor : TTY=pts/4 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:52:32 ubuntu-server sudo: backup : TTY=pts/3 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:52:35 ubuntu-server sshd[3997]: Accepted publickey for backup from 192.0.2.25 port 41117 ssh2
+May 14 09:52:40 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:52:49 ubuntu-server systemd-logind[1753]: Removed session 37.
+May 14 09:52:49 ubuntu-server CRON[3670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:52:57 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by webadmin(uid=1004)
+May 14 09:52:57 ubuntu-server CRON[3809]: pam_unix(cron:session): session closed for user root
+May 14 09:53:07 ubuntu-server systemd-logind[1789]: Removed session 16.
+May 14 09:53:10 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:53:13 ubuntu-server systemd-logind[3681]: Removed session 20.
+May 14 09:53:18 ubuntu-server systemd-logind[1906]: New session 77 of user ops.
+May 14 09:53:25 ubuntu-server polkitd[721]: Registered Authentication Agent for unix-process:2287:123456
+May 14 09:53:25 ubuntu-server sshd[3733]: Failed password for invalid user monitor from 192.0.2.40 port 51763 ssh2
+May 14 09:53:34 ubuntu-server CRON[1951]: pam_unix(cron:session): session closed for user root
+May 14 09:53:35 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2284:123456
+May 14 09:53:37 ubuntu-server systemd-logind[3685]: Removed session 74.
+May 14 09:53:42 ubuntu-server groupadd[2104]: group added to /etc/group: name=app-readers, GID=1103
+May 14 09:53:46 ubuntu-server sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:53:51 ubuntu-server sshd[1323]: Failed password for invalid user guest from 192.0.2.25 port 47641 ssh2
+May 14 09:53:53 ubuntu-server sshd[3989]: Accepted publickey for reporting from 192.0.2.55 port 42673 ssh2
+May 14 09:53:54 ubuntu-server sudo: backup : TTY=pts/4 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/journalctl
+May 14 09:53:59 ubuntu-server sshd[1749]: pam_unix(sshd:session): session opened for user analyst(uid=1005) by (uid=0)
+May 14 09:54:12 ubuntu-server sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/find /backup -type f
+May 14 09:54:17 ubuntu-server passwd[2103]: password changed for reporting
+May 14 09:54:21 ubuntu-server sshd[1341]: Accepted publickey for analyst from 192.0.2.25 port 55967 ssh2
+May 14 09:54:21 ubuntu-server sudo: webadmin : TTY=pts/2 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:54:21 ubuntu-server systemd-logind[3879]: New session 79 of user analyst.
+May 14 09:54:24 ubuntu-server sshd[3867]: Accepted publickey for webadmin from 192.0.2.55 port 45260 ssh2
+May 14 09:54:29 ubuntu-server systemd-logind[3876]: New session 23 of user ops.
+May 14 09:54:30 ubuntu-server pam_unix(login:session): session opened for user webadmin(uid=1004) by LOGIN(uid=0)
+May 14 09:54:30 ubuntu-server systemd-logind[3711]: Removed session 84.
+May 14 09:54:38 ubuntu-server systemd-logind[1874]: New session 34 of user monitor.
+May 14 09:54:42 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+May 14 09:54:46 ubuntu-server CRON[3799]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:54:54 ubuntu-server sshd[1907]: pam_unix(sshd:session): session closed for user webadmin
+May 14 09:55:03 ubuntu-server sshd[1403]: Connection closed by authenticating user ops 198.51.100.23 port 48006 [preauth]
+May 14 09:55:05 ubuntu-server sshd[3916]: Failed password for invalid user backup from 192.0.2.25 port 39675 ssh2
+May 14 09:55:09 ubuntu-server sshd[1371]: Accepted publickey for monitor from 198.51.100.17 port 46767 ssh2
+May 14 09:55:10 ubuntu-server sshd[1875]: pam_unix(sshd:session): session opened for user webadmin(uid=1004) by (uid=0)
+May 14 09:55:15 ubuntu-server sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:55:15 ubuntu-server sudo: ops : TTY=pts/2 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+May 14 09:55:15 ubuntu-server sshd[3941]: Accepted publickey for backup from 192.0.2.40 port 39148 ssh2
+May 14 09:55:24 ubuntu-server CRON[3921]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:55:27 ubuntu-server sshd[1406]: Connection closed by authenticating user monitor 192.0.2.55 port 60092 [preauth]
+May 14 09:55:34 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:55:40 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:55:46 ubuntu-server sshd[2200]: Connection closed by invalid user test 198.51.100.23 port 54560 [preauth]
+May 14 09:55:51 ubuntu-server sudo: monitor : TTY=pts/1 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:55:52 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+May 14 09:55:57 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:55:59 ubuntu-server sshd[1389]: Accepted publickey for reporting from 192.0.2.40 port 43988 ssh2
+May 14 09:55:59 ubuntu-server sshd[3678]: Accepted publickey for backup from 192.0.2.55 port 37257 ssh2
+May 14 09:56:01 ubuntu-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/free
+May 14 09:56:04 ubuntu-server systemd-logind[3836]: Removed session 96.
+May 14 09:56:07 ubuntu-server useradd[2101]: new group: name=reporting, GID=1102
+May 14 09:56:09 ubuntu-server systemd-logind[3777]: Removed session 74.
+May 14 09:56:09 ubuntu-server sudo: reporting : TTY=pts/0 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:56:19 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:56:21 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/df
+May 14 09:56:22 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by monitor(uid=1006)
+May 14 09:56:23 ubuntu-server sudo: analyst : TTY=pts/3 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/free -m
+May 14 09:56:24 ubuntu-server sshd[2243]: Connection closed by invalid user test 198.51.100.23 port 47388 [preauth]
+May 14 09:56:26 ubuntu-server systemd-logind[3715]: New session 17 of user ops.
+May 14 09:56:29 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/du -sh /backup
+May 14 09:56:30 ubuntu-server sshd[3745]: Failed password for invalid user analyst from 198.51.100.17 port 59206 ssh2
+May 14 09:56:32 ubuntu-server sshd[3760]: Accepted publickey for monitor from 198.51.100.23 port 40587 ssh2
+May 14 09:56:36 ubuntu-server systemd-logind[1851]: New session 94 of user ops.
+May 14 09:56:37 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:56:48 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by analyst(uid=1005)
+May 14 09:56:50 ubuntu-server systemd-logind[3724]: New session 52 of user webadmin.
+May 14 09:56:54 ubuntu-server sshd[1752]: pam_unix(sshd:session): session opened for user monitor(uid=1006) by (uid=0)
+May 14 09:56:54 ubuntu-server CRON[1808]: pam_unix(cron:session): session closed for user root
+May 14 09:56:54 ubuntu-server sshd[1823]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+May 14 09:56:55 ubuntu-server CRON[3819]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:57:03 ubuntu-server systemd-logind[3996]: New session 81 of user monitor.
+May 14 09:57:08 ubuntu-server systemd-logind[1763]: Removed session 81.
+May 14 09:57:15 ubuntu-server CRON[1894]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:57:15 ubuntu-server CRON[1927]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:57:16 ubuntu-server systemd-logind[3840]: Removed session 79.
+May 14 09:57:24 ubuntu-server sudo: reporting : TTY=pts/1 ; PWD=/home/reporting ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:57:27 ubuntu-server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.77
+May 14 09:57:28 ubuntu-server sshd[1321]: Accepted publickey for webadmin from 198.51.100.23 port 31141 ssh2
+May 14 09:57:33 ubuntu-server sudo: webadmin : TTY=pts/3 ; PWD=/home/webadmin ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:57:38 ubuntu-server CRON[3983]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:57:39 ubuntu-server sudo: ops : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:57:41 ubuntu-server sshd[1704]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+May 14 09:57:42 ubuntu-server su: pam_unix(su:session): session opened for user root(uid=0) by ops(uid=1001)
+May 14 09:57:45 ubuntu-server CRON[3857]: pam_unix(cron:session): session closed for user root
+May 14 09:57:52 ubuntu-server pam_unix(login:session): session opened for user backup(uid=1003) by LOGIN(uid=0)
+May 14 09:57:59 ubuntu-server systemd-logind[3744]: New session 35 of user backup.
+May 14 09:58:01 ubuntu-server sshd[1313]: Accepted publickey for backup from 192.0.2.55 port 44608 ssh2
+May 14 09:58:17 ubuntu-server sudo: monitor : TTY=pts/3 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status node-exporter
+May 14 09:58:28 ubuntu-server systemd-logind[1716]: Removed session 26.
+May 14 09:58:30 ubuntu-server sshd[1367]: Accepted publickey for webadmin from 198.51.100.23 port 30884 ssh2
+May 14 09:58:37 ubuntu-server sshd[1396]: Failed password for monitor from 192.0.2.40 port 54799 ssh2
+May 14 09:58:40 ubuntu-server systemd[1]: Reloading OpenBSD Secure Shell server.
+May 14 09:58:48 ubuntu-server CRON[1876]: pam_unix(cron:session): session closed for user root
+May 14 09:58:53 ubuntu-server sshd[1392]: Accepted publickey for analyst from 192.0.2.40 port 47911 ssh2
+May 14 09:58:53 ubuntu-server sudo: analyst : TTY=pts/4 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/df -h
+May 14 09:58:57 ubuntu-server sshd[1379]: Accepted publickey for analyst from 192.0.2.55 port 42853 ssh2
+May 14 09:59:02 ubuntu-server CRON[3820]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:59:07 ubuntu-server sshd[1351]: Accepted publickey for reporting from 198.51.100.17 port 41256 ssh2
+May 14 09:59:09 ubuntu-server sshd[3814]: Failed password for invalid user monitor from 192.0.2.55 port 39202 ssh2
+May 14 09:59:15 ubuntu-server systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 14 09:59:16 ubuntu-server sshd[3717]: Failed password for invalid user analyst from 192.0.2.55 port 31975 ssh2
+May 14 09:59:26 ubuntu-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:59:29 ubuntu-server CRON[3728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:59:31 ubuntu-server CRON[3662]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 14 09:59:31 ubuntu-server CRON[3713]: pam_unix(cron:session): session closed for user root
+May 14 09:59:36 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=1003)
+May 14 09:59:36 ubuntu-server sudo: pam_unix(sudo:auth): conversation failed
+May 14 09:59:38 ubuntu-server systemd-logind[1770]: Removed session 20.
+May 14 09:59:38 ubuntu-server CRON[1832]: pam_unix(cron:session): session closed for user root
+May 14 09:59:39 ubuntu-server sudo: backup : TTY=pts/1 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/uptime
+May 14 09:59:46 ubuntu-server sshd[1373]: Accepted publickey for webadmin from 198.51.100.17 port 31417 ssh2
+May 14 09:59:47 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2286:123456
+May 14 09:59:55 ubuntu-server systemd-logind[1948]: New session 80 of user monitor.
+May 14 09:59:56 ubuntu-server polkitd[721]: Unregistered Authentication Agent for unix-process:2219:123456
+May 14 09:59:59 ubuntu-server sshd[3961]: Accepted publickey for monitor from 192.0.2.40 port 61721 ssh2
