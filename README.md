@@ -133,5 +133,5 @@ Created by: Vikalp Pratap Yadav https://github.com/vikalp1817243  from  K.A.V.A.
 
 ## 📄 License
 
-This repository is licensed under the [MIT License](LICENSE).
-Feel free to use these challenges for personal learning, training sessions, or internal community workshops with attribution.
+Unless otherwise noted, this repository's original challenge materials are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+You may share and adapt them with appropriate attribution, provided that adaptations are distributed under the same or a compatible CC BY-SA license.
